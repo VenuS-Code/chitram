@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: next
+    runs-on: chitram
 
     steps:
       # Step 1: Checkout the code
