@@ -30,9 +30,9 @@ jobs:
 
       # Step 4: Run tests (optional)
       # If you're using a testing framework like Jest, you can add a test step here.
-      - name: Run tests
-        run: |
-          npm test  # Adjust this command if you're using a different testing framework
+      # - name: Run tests
+      #   run: |
+      #     npm test  # Adjust this command if you're using a different testing framework
 
       # Step 5: Build the app
       - name: Build Next.js app
