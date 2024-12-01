@@ -37,6 +37,7 @@ jobs:
       # Step 5: Build the app
       - name: Build Next.js app
         run: |
+          hostname -I
           npm run dev
 
       # Step 6: Deploy to Vercel (or other hosting services)
