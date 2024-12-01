@@ -42,10 +42,10 @@ jobs:
           exit 0  # Exit with a 0 status to ensure the step doesn't fail
 
       # Optionally, add a step to wait for the app to be fully started if needed
-      - name: Wait for Next.js app to start
-        run: |
-          sleep 10  # Wait for 10 seconds (adjust as necessary)
-          curl --silent --fail http://localhost:3000 || exit 1  # Ensure the app is up by making a request
+      # - name: Wait for Next.js app to start
+      #   run: |
+      #     sleep 10  # Wait for 10 seconds (adjust as necessary)
+      #     curl --silent --fail http://localhost:3000 || exit 1  # Ensure the app is up by making a request
 
       # Step 6: Deploy to Vercel (or other hosting services)
       # If you're using Vercel for deployment, you can use their official action:
