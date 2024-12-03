@@ -32,7 +32,7 @@ jobs:
 
       - name: Echo
         run: | 
-          echo "Test run"
+          echo "Test run inprogress"
 
       # Step 4: Run tests (optional)
       # If you're using a testing framework like Jest, you can add a test step here.
