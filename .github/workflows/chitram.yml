@@ -30,6 +30,10 @@ jobs:
         run: |
           npm install
 
+      - name: Echo
+        run: | 
+          echo "Test check"
+
       # Step 4: Run tests (optional)
       # If you're using a testing framework like Jest, you can add a test step here.
       # - name: Run tests
