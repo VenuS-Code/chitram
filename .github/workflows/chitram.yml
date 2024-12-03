@@ -28,6 +28,10 @@ jobs:
         run: |
           npm install
 
+      - name: Echo
+        run: | 
+          echo "Test check"
+
       # Step 4: Run tests (optional)
       # If you're using a testing framework like Jest, you can add a test step here.
       # - name: Run tests
@@ -35,11 +39,11 @@ jobs:
       #     npm test  # Adjust this command if you're using a different testing framework
 
       # Step 5: Build the app
-      - name: Build Next.js app
-        run: |
-          hostname -I
-          nohup npm run dev &  # Run the Next.js dev server in the background
-          exit 0  # Exit with a 0 status to ensure the step doesn't fail
+      # - name: Build Next.js app
+      #   run: |
+      #     hostname -I
+      #     nohup npm run dev &  # Run the Next.js dev server in the background
+      #     exit 0  # Exit with a 0 status to ensure the step doesn't fail
 
       # Optionally, add a step to wait for the app to be fully started if needed
       # - name: Wait for Next.js app to start
