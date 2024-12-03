@@ -32,7 +32,7 @@ jobs:
 
       - name: Echo
         run: | 
-          echo "Test 5"
+          echo "Test run"
 
       # Step 4: Run tests (optional)
       # If you're using a testing framework like Jest, you can add a test step here.
