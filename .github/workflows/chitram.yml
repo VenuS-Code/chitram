@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: chitram
+    runs-on: ubuntu-latest
 
     steps:
       # Step 1: Checkout the code
